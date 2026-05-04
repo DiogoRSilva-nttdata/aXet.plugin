@@ -130,7 +130,5 @@ Sección donde se almacenan todas las acciones relevantes del sistema, permitien
 ![Histórico](./screenshots/Hist%C3%B3rico.png)
 
 
-```markdown
-![Gestión de Incidencias](./screenshots/incidencias.png)
 ```
 
