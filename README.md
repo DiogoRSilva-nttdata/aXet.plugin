@@ -130,5 +130,107 @@ Sección donde se almacenan todas las acciones relevantes del sistema, permitien
 ![Histórico](./screenshots/Hist%C3%B3rico.png)
 
 
+# 🗂️ Estructura del Proyecto
+
+```javascript
+repo-root/
+├── documentos/                # Documentación funcional, técnica y plan de pruebas
+├── screenshots/               # Capturas utilizadas en el README
+├── reserva-salas-valdemora/
+│   ├── backend/               # API REST, lógica de negocio, seguridad y tests
+│   ├── frontend/              # SPA React + Vite (interfaz, roles y experiencia de usuario)
+│   └── memory-bank/           # Contexto técnico, decisiones arquitectónicas e insights
+```
+
+---
+
+# 🚀 Puesta en Marcha (Quickstart)
+
+## 🔧 Backend
+
+__Instalación__
+
+```bash
+cd reserva-salas-valdemora/backend
+npm install
+```
+
+__Ejecución__
+
+```bash
+npm start
+```
+
+__Tests unitarios__
+
+```bash
+npm test
+```
+
+---
+
+## 🖥️ Frontend
+
+__Instalación__
+
+```bash
+cd reserva-salas-valdemora/frontend
+npm install
+```
+
+__Ejecución__
+
+```bash
+npm run dev
+```
+
+__Tests__
+
+```bash
+npm test
+```
+
+---
+
+# 🛠️ Tecnologías Principales
+
+### 🎨 Frontend
+
+- React + Vite
+- JavaScript moderno (ES6+)
+- SPA modular
+- Gestión de autenticación en cliente
+- Diseño responsive
+
+### ⚙️ Backend
+
+- Node.js ≥ 18
+- Express
+- Arquitectura REST
+- PostgreSQL
+- Autenticación basada en JWT
+- Middleware de control de acceso por roles
+
+### 🧪 Testing
+
+- Tests automatizados con `npm test`
+- Estructura organizada en `/tests`
+- Separación por controladores y servicios
+- Cobertura enfocada a lógica de negocio
+
+---
+
+# 🧩 Arquitectura y Escalabilidad
+
+El sistema está diseñado siguiendo principios de:
+
+- Separación clara entre frontend y backend
+- Organización modular por dominios
+- Control de roles y seguridad centralizada
+- Fácil extensión para nuevas funcionalidades
+
+La estructura facilita mantenimiento, evolución y escalabilidad futura.
+
+
 ```
 
