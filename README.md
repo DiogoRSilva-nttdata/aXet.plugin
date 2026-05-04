@@ -77,6 +77,11 @@ Formulario para modificar la información de una sala existente, permitiendo act
 
 __Descripción:__\
 Pantalla donde se muestran todas las solicitudes registradas, permitiendo su revisión, aprobación o rechazo por parte del administrador.
+El estado de cada solicitud se representa mediante un sistema visual de colores:
+
+- 🟢 __Verde__ → Solicitud aceptada
+- 🟡 __Amarillo__ → Solicitud pendiente
+- 🔴 __Rojo__ → Solicitud rechazada
 
 ![Gestión de solicitudes - Listado](./screenshots/Gesti%C3%B3n%20solicitudes.png)
 
@@ -104,6 +109,11 @@ Esto permite una gestión más precisa y eficiente.
 
 __Descripción:__\
 Representación visual de las reservas en formato calendario, facilitando la visualización de disponibilidad y ocupación por día.
+El estado de cada solicitud realizada hoy se representa mediante un sistema visual de colores:
+
+- 🟢 __Verde__ → Solicitud aceptada
+- 🟡 __Amarillo__ → Solicitud pendiente
+- 🔴 __Rojo__ → Solicitud rechazada
 
 ![Calendario](./screenshots/Calendario.png)
 
