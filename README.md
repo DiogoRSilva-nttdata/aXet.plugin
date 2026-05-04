@@ -25,96 +25,110 @@
 
 - 🔐 [Extensiones opcionales: Seguridad, Calidad y Deuda Técnica](./documentos/Extensiones_opcionales_Seguridad_Calidad_Deuda_Tecnica.md)
 
-# 🖼️ Capturas de Pantalla Principales
+# 🖼️ Capturas de Pantalla del Sistema
 
 ---
 
-## 🏢 Grupo de Capturas: Gestión de Salas
+# 1️⃣ Login
 
-### 🔎 Vista general de salas disponibles
+### 🔐 Autenticación de usuario
 
 __Descripción:__\
-Visualización completa del listado de salas registradas en el sistema, mostrando información clave como capacidad, centro asociado y estado de disponibilidad.
+Pantalla de acceso al sistema donde los usuarios introducen sus credenciales para autenticarse. El acceso está protegido mediante control de roles y validación de sesión.
 
-__Captura:__
-
-```markdown
-![Gestión de Salas - Vista general](./screenshots/gestion-salas-listado.png)
-```
+![Login](./screenshots/login.png)
 
 ---
 
-### ➕ Creación y edición de sala
+# 2️⃣ Dashboard
+
+### 📊 Panel principal de control
 
 __Descripción:__\
-Formulario para registrar nuevas salas o modificar las existentes, permitiendo actualizar capacidad, centro y características técnicas.
+Vista general del sistema donde se muestran indicadores clave como reservas activas, solicitudes pendientes, incidencias abiertas y estado general de ocupación.
 
-__Captura:__
-
-```markdown
-![Gestión de Salas - Crear o editar](./screenshots/gestion-salas-formulario.png)
-```
+![Dashboard](./screenshots/dashboard.png)
 
 ---
 
-## 📄 Grupo de Capturas: Gestión de Solicitudes
+# 3️⃣ Gestión de Salas
 
-### 📅 Filtro por fecha en solicitudes
+### 🏢 Listado de salas registradas
 
 __Descripción:__\
-Es posible filtrar las solicitudes por fecha utilizando cuatro modalidades:
+Visualización completa de las salas disponibles en el sistema, mostrando información relevante como centro asociado, capacidad y estado.
+
+![Gestión de salas - Listado](./screenshots/Gesti%C3%B3n%20de%20salas%201.png)
+
+---
+
+### ✏️ Edición de salas
+
+__Descripción:__\
+Formulario para modificar la información de una sala existente, permitiendo actualizar datos como capacidad, centro o características específicas.
+
+![Gestión de salas - Edición](./screenshots/Gesti%C3%B3n%20de%20salas%20(editar_salas).png)
+
+---
+
+# 4️⃣ Gestión de Solicitudes
+
+### 📄 Listado general de solicitudes
+
+__Descripción:__\
+Pantalla donde se muestran todas las solicitudes registradas, permitiendo su revisión, aprobación o rechazo por parte del administrador.
+
+![Gestión de solicitudes - Listado](./screenshots/Gesti%C3%B3n%20solicitudes.png)
+
+---
+
+### 📅 Filtro avanzado por fecha
+
+__Descripción:__\
+Es posible filtrar las solicitudes por fecha utilizando diferentes modalidades:
 
 - Antes de una fecha
 - Después de una fecha
 - Fecha exacta
 - Entre un rango de fechas
 
-Esto permite un control más preciso y eficiente de la gestión administrativa.
+Esto permite una gestión más precisa y eficiente.
 
-__Captura:__
-
-```markdown
-![Gestión de Solicitudes - Filtro por fecha](./screenshots/solicitudes-filtro-fecha.png)
-```
+![Gestión de solicitudes - Filtro](./screenshots/Gesti%C3%B3n%20solicitudes%20(filtrar).png)
 
 ---
 
-### ✅ Aprobación y rechazo de solicitudes
+# 5️⃣ Calendario
+
+### 🗓️ Vista calendario de reservas
 
 __Descripción:__\
-Panel de administración que permite aprobar o rechazar solicitudes pendientes, generando automáticamente la reserva correspondiente o registrando el rechazo en el histórico.
+Representación visual de las reservas en formato calendario, facilitando la visualización de disponibilidad y ocupación por día.
 
-__Captura:__
-
-```markdown
-![Gestión de Solicitudes - Aprobación](./screenshots/solicitudes-aprobacion.png)
-```
+![Calendario](./screenshots/Calendario.png)
 
 ---
 
-## 📊 Grupo de Capturas: Dashboard y Control General
+# 6️⃣ Incidencias
 
-### 📈 Panel principal (Dashboard)
+### ⚠️ Gestión de incidencias
 
 __Descripción:__\
-Vista centralizada con métricas clave del sistema: reservas activas, solicitudes pendientes, incidencias abiertas y estado general de ocupación.
+Módulo para registrar, consultar y gestionar incidencias asociadas a salas o reservas, permitiendo su seguimiento y resolución.
 
-__Captura:__
-
-```markdown
-![Dashboard principal](./screenshots/dashboard.png)
-```
+![Incidencias](./screenshots/Incidencias.png)
 
 ---
 
-## ⚠️ Grupo de Capturas: Gestión de Incidencias
+# 7️⃣ Histórico
 
-### 🛠️ Registro de incidencias
+### 📚 Registro histórico de acciones
 
 __Descripción:__\
-Formulario para reportar incidencias asociadas a una sala o reserva, permitiendo su seguimiento y resolución.
+Sección donde se almacenan todas las acciones relevantes del sistema, permitiendo trazabilidad y control de auditoría.
 
-__Captura:__
+![Histórico](./screenshots/Hist%C3%B3rico.png)
+
 
 ```markdown
 ![Gestión de Incidencias](./screenshots/incidencias.png)
