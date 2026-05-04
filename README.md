@@ -240,7 +240,5 @@ El sistema está diseñado siguiendo principios de:
 - Fácil extensión para nuevas funcionalidades
 
 La estructura facilita mantenimiento, evolución y escalabilidad futura.
-
-
 ```
 
