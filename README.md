@@ -1,4 +1,4 @@
-# 📦 Sistema de Gestión y Reserva de Salas – Valdemora 🚀
+# 📦 Sistema de Gestión y Reserva de Salas 🪑
 
 ### Plataforma Integral para la Administración de Reservas, Solicitudes e Incidencias
 
