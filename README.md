@@ -19,11 +19,11 @@
 - [Diseño técnico y propuesta tecnológica](./documentos/Dise%C3%B1o%20t%C3%A9cnico%20y%20propuesta%20tecnol%C3%B3gica.docx)
 ### 🗓️ Plan de pruebas
 
-- 🗓️ [Plan de Pruebas](./documentos/Plan_de_Pruebas_Reserva_Salas.pdf)
+-  [Plan de Pruebas](./documentos/Plan_de_Pruebas_Reserva_Salas.pdf)
   
 ###  🔐 Extensiones opcionales
 
-- 🔐 [Extensiones opcionales: Seguridad, Calidad y Deuda Técnica](./documentos/Extensiones_opcionales_Seguridad_Calidad_Deuda_Tecnica.md)
+- [Extensiones opcionales: Seguridad, Calidad y Deuda Técnica](./documentos/Extensiones_opcionales_Seguridad_Calidad_Deuda_Tecnica.md)
 
 # 🖼️ Capturas de Pantalla del Sistema
 
